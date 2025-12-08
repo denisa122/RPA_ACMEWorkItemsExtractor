@@ -1,0 +1,6 @@
+{
+  "Name": "ACME WorkItems Extractor",
+  "ProjectType": "Process",
+  "Description": "Opens Edge browser on ACME.\r\nChecks if user is logged into ACME. If not, logs the user in. If yes, logs this info and continues.\r\nNavigates to Work Items page.\r\nExtracts data from the Work Items Table (WIID, Description, Type, Status, Date).\r\nStores data in an Excel using a Workbook Write Range Activity.",
+  "MainFile": "Main.xaml"
+}
